@@ -3,7 +3,7 @@
 A ReactJS-based web application for tracking and visualizing global COVID-19 statistics in real-time.
 Link to the site ---> https://infection19-bef6c.web.app
 
-<embed src="./img/img.pdf" type="application/pdf" width="100%" height="600px" />
+<embed src="/img/img.pdf" type="application/pdf" width="100%" height="600px" />
 
   ## Table of Contents
   - [Installation](#installation)
