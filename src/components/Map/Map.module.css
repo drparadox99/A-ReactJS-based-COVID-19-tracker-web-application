@@ -1,0 +1,113 @@
+.root {
+  background-color: white !important;
+  width: 100%;
+  height: 200%;
+  overflow: scroll;
+}
+.mapBackground {
+  margin: 1px auto;
+  width: auto;
+  overflow: scroll;
+  background-color: #161e2c !important;
+
+  /*background-color: #3d486c !important;*/
+}
+/*popup parent(background)*/
+.popup {
+  padding: 3px;
+  width: 205px !important;
+  height: 232px !important;
+  max-width: 510px !important;
+  max-height: 330px !important;
+  text-align: left !important;
+  /*background-color: none; */
+  background-color: #4b5a81 !important;
+  border-radius: 12px !important;
+  box-shadow: 10px 10px 5px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*image sur le popup*/
+.popupImage {
+  height: 40px !important;
+  padding: 8px 110% !important;
+  border-radius: 40% !important;
+}
+/*image sur le popup*/
+.divImage {
+  max-width: 70px !important;
+  max-height: 70px !important;
+}
+/*nom du pays sur le popup*/
+.countryName {
+  color: white !important;
+  font-weight: 600 !important;
+  font-family: Open Sans !important;
+  font-size: 1.2rem !important;
+  text-align: center;
+}
+/* pop up text info sur les pays*/
+.popupText {
+  padding: 5px 10px !important;
+  color: #aacdf1 !important;
+  font-weight: 600 !important;
+  font-family: Open Sans !important;
+  font-size: 0.73rem !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.confirmed_data {
+  color: #7cfc00;
+  margin-right: 12px !important;
+  float: right;
+}
+.deceased_data {
+  color: #ff6347;
+  margin-right: 10px !important;
+  float: right;
+}
+.recovered_data {
+  color: #42c0fb;
+  margin-right: 10px !important;
+  float: right;
+}
+.active_data {
+  color: #ffbf00;
+  margin-right: 10px !important;
+  float: right;
+}
+.critical_data {
+  color: #00ff00;
+  margin-right: 10px !important;
+  float: right;
+}
+.population {
+  color: lightsalmon;
+  margin-right: 10px !important;
+  float: right;
+}
+.titles {
+  max-width: 75px !important;
+  margin-right: 5px !important;
+}
+
+.fleches1 {
+  margin-left: 11px;
+}
+.fleches2 {
+  margin-left: 14px;
+}
+.fleches3 {
+  margin-left: 10px;
+}
+.fleches4 {
+  margin-left: 30px;
+}
+.fleches5 {
+  margin-left: 27px;
+}
+.fleches6 {
+  margin-left: 9px;
+}
+.fleches7 {
+  margin-left: 5px;
+}

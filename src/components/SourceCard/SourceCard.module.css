@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  background-color: #1b2435;
+  border-radius: 10px;
+  padding: 5px 5px;
+
+  margin: 20px;
+  transition: transform 100ms ease-in;
+}
+
+.sourceCardTop {
+  width: 100%;
+  height: 100%;
+}
+
+.container:hover {
+  transform: scale(1.07);
+}
+
+.sourceCardImg {
+  width: inherit;
+  height: inherit;
+  padding: 10px 5px;
+  border-radius: 20px;
+}
+.sourceCardMiddle > h2 {
+  color: white;
+  padding: 3px 8px;
+}
+
+.sourceCardBottom > h5 {
+  color: white;
+  padding: 0px 15px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 840px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+}

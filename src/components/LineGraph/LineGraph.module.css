@@ -1,0 +1,13 @@
+
+/*root div the entire component*/
+.root{
+  background-color: white !important;
+  height: 320px !important;
+  width: 700px;
+}
+/* parent div of the line component */
+.app__graph {
+  height: 290px !important;
+  flex-grow: 1;
+
+}

@@ -1,0 +1,96 @@
+.appBar {
+  /* background: #2e3b55 !important; */
+  background: #161e2c !important;
+}
+
+.titresNavBar {
+  font-family: "Opens Sans" !important;
+  color: white !important;
+  padding: 15px 0px !important;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/*Pour les langues*/
+.selected_item {
+  color: #e3f7eb !important;
+  border: 1mm ridge #1e8449;
+  border-radius: 14px;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 25px !important;
+}
+
+/*hidden drop down menu on the right*/
+.menu_item {
+  color: #bdedba !important;
+  font-family: "Open Sans !important";
+  font-weight: bold !important;
+  font-size: 1.2rem !important;
+  cursor: pointer;
+}
+
+/* hidden drop down menu on the left*/
+.selected_item_hidden {
+  color: #bdedba !important;
+  font-family: "Open Sans !important";
+  font-weight: bold !important;
+  font-size: 1.2rem !important;
+  cursor: pointer;
+}
+
+.dropdown_menu {
+  float: right;
+  margin-top: 15px !important;
+}
+
+@media (max-width: 950px) {
+  .titresNavBar {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .titresNavBar {
+    font-size: 0.9rem !important;
+  }
+}
+
+.icon {
+  padding: 12px 0px !important;
+  font-size: 65px !important;
+  color: white !important;
+}
+
+.MuiPaper-root {
+  background-color: black !important;
+}
+
+@font-face {
+  font-family: frijole;
+  src: local("frijole"), url(frijole.ttf);
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 20px;
+  /*background-color: red; */
+  font-family: "Frijole";
+  color: white;
+  font-size: 35px;
+  background-color: "red !important";
+  cursor: pointer;
+}
+.corona_icon {
+  width: 30px !important;
+  height: 30px !important;
+}
+/*
+
+.app__dropdown {
+    margin-left: 1 !important;
+    width: aut !important;
+    order: 2 !important;
+}
+
+*/

@@ -1,0 +1,49 @@
+/*.midlle_leftPanel {
+  margin-left: 2px;
+  border-radius: 6px !important;
+
+  background: yellow !important;
+  padding: 3px !important;
+  min-width: 300px;
+  display: none !important;
+}
+*/
+.cardOuterLayer {
+  border-radius: 27px !important;
+
+  /* background: #b1ffb1 !important; */
+  padding: 1px 2px !important;
+  min-width: 305px;
+  text-align: center;
+  margin-top: 250px !important;
+}
+
+.cardInnerLayer {
+  /* background: #2e3b55 !important; */
+  background: #1B2435 !important;
+  border-radius: 30px !important;
+  padding: 3px !important;
+  min-width: 300px;
+}
+
+.images {
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
+  border-radius: 50%;
+  overflow: scroll;
+  color: #6a5d5d;
+  background-color: white !important;
+  margin-top: 0 !important;
+}
+
+.title {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  margin-bottom: 12px !important;
+  color: #d8ffd8 !important;
+  font-size: 1.5rem !important;
+}
+
+@media (max-width: 600px) {}
